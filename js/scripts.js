@@ -177,6 +177,6 @@ $(document).ready(function () {
 
 $(document).ready(function(){
     $("#affiche-map").click(function(){
-        $("#map").show();
+        $("#map").toggle();
     });
 });
